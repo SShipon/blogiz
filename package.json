@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "server-json":"json-server --watch db.json --port 5000",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "json-server": "^1.0.0-beta.2",
     "next": "14.1.2",
     "react": "^18",
     "react-dom": "^18",

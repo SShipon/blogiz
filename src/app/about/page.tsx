@@ -1,11 +1,11 @@
-const AboutPage = () => {
+
+
+export default function AboutPage() {
   return (
     <div className="mt-10">
-      <h1 className="text-center text-8xl text-accent">
+      <span className="text-center text-8xl text-accent">
         Developer is Sleeping....!😴
-      </h1>
+      </span>
     </div>
   );
-};
-
-export default AboutPage;
+}
